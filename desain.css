@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header1 {
+    width: 19.9%;
+    height: 50px;
+    padding:0;
+    margin: 0;
+    float: left;
+    background-color: rgb(55, 107, 156);
+    color: rgb(213, 213, 219);
+}
+.header2 {
+    width: 80%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    background-color: rgb(55, 107, 156);
+    color: rgb(225, 228, 228);
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    border-left: 1px solid rgb(66, 112, 155);
+}
+.header2 h2 {
+    float: left;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+.header2 .user {
+    float: right;
+    margin: 0 1% 0 0;
+}
+.header2 .ham {
+    background-color: rgb(55, 107, 156);
+    border: 1px solid rgb(42, 114, 197);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: 35px;
+    padding: 5px;
+}
+.header2 .ham .burger {
+    width: 22px;
+    height: 3px;
+    background-color: lightsteelblue;
+    float: left;
+    padding: 0;
+    margin: 1px;
+}
+.header2 .ham:hover {
+    cursor: pointer;
+    background-color: rgb(4, 33, 66);
+}
+aside {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    background-color: rgb(42, 43, 43);
+    height: 100vh;
+}
+ul {
+    margin: 0;
+    padding: 10px 10px 0 10px;
+}
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li a {
+    text-decoration: none;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0;
+    color: rgb(210, 212, 214);
+    border-bottom: 1px dashed rgb(246, 248, 250);
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+}
+ul li a:hover {
+    background-color: rgb(90, 91, 92);
+}
+.aktif {
+    background-color: rgb(90, 91, 92);
+}
+article {
+    width: 80%;
+    height: 100vh;
+    float: left;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(229, 232, 233);
+    overflow: scroll;
+}
+section {
+    margin: 3% 2% 5% 2%;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    float: left;
+    width: 94%;
+    background-color: rgb(244, 244, 245);
+    border: 0;
+}
+footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: left;
+    background-color: rgb(45, 90, 128);
+    color: thistle;
+}
+section .petugas {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    float: left;
+    background-color: rgb(24, 143, 190);
+    margin: 1%;
+    color: white;
+}
+section .pelanggan {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    float: left;
+    background-color: rgb(4, 167, 131);
+    margin: 1%;
+    color: white;
+}
+section .obat {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    float: left;
+    background-color: rgb(44, 122, 67);
+    margin: 1%;
+    color: white;
+}
+section .transaksi {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    float: left;
+    background-color: rgb(117, 45, 45);
+    margin: 1%;
+    color: white;
+}
+.tambah {
+    padding: 10px 15px 10px 15px;
+    margin: 1%;
+    border: 0;
+    background-color: rgb(16, 86, 156);
+    color: white;
+}
+.tambah:hover {
+    background-color: rgb(8, 47, 87);
+    cursor: pointer;
+}
+.edit {
+    padding: 10px 15px 10px 15px;
+    margin: 1%;
+    border: 0;
+    background-color: rgb(224, 222, 81);
+    color: black;
+}
+.edit:hover {
+    background-color: rgb(105, 96, 9);
+    cursor: pointer;
+}
+.hapus {
+    padding: 10px 15px 10px 15px;
+    margin: 1%;
+    border: 0;
+    background-color: rgb(107, 25, 25);
+    color: white;
+}
+.hapus:hover {
+    background-color: rgb(54, 11, 11);
+    cursor: pointer;
+}
+.kolom {
+    width: 90%;
+    padding: 10px;
+    border: 0;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.tabel-data {
+    width: 100%;
+    border-color: grey;
+}

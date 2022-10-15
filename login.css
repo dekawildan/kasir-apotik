@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 223, 223);
+}
+.atas {
+    margin: 10% 25% 0 25%;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: rgb(247, 252, 252);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 50%;
+    height: 40px;
+    float: left;
+    box-shadow: 5px 5px rgb(158, 157, 157);
+}
+.isi {
+    margin: 0 25% 0 25%;
+    padding: 10px;
+    width: 50%;
+    height: 150px;
+    background-color: rgb(248, 244, 244);
+    float: left;
+    box-shadow: 5px 5px rgb(158, 157, 157);
+}
+.isi input {
+    width: 90%;
+    padding: 15px;
+    border: 0;
+    box-shadow: 3px 3px 3px lightgrey;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.isi button {
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: rgba(3, 3, 185, 0.808);
+}
+.isi button:hover {
+    cursor: pointer;
+    background-color: midnightblue;
+}
+.bawah {
+    margin: 0 25% 10% 25%;
+    padding: 10px;
+    width: 50%;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: lightsteelblue;
+    float: left;
+    box-shadow: 5px 5px rgb(158, 157, 157);
+}
+.bawah p {
+    color: rgb(0, 72, 139);
+}
